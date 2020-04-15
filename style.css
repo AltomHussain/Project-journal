@@ -18,27 +18,46 @@ body{
     
 }
 
-.btn-primary{
+.btn-signin{
     background-color: rgb(203, 141, 145);
     border-color: rgb(203, 141, 145);
-}
-.text :hover{
-    border: 2px solid rgb(232, 187, 236);
-    border-radius: 25px;
+    color: white;
 }
 
 
-.about-us{
-    background-color: rgb(228, 206, 203);
+
+.main-page-content{
+    margin-bottom: 20px;
     margin-left:15px;
     padding-top: 10px;
-    border-radius: 25px;
-}
-
-.about-us div {
     
 }
 
+.main-page-heading{
+    padding: 25px 0 0 15px;
+}
+
+.main-page-content :nth-child(1){
+    border-radius: 25px;
+    padding: 20px 0 20px 15px;
+}
+
+.about-us{
+    background-color: rgb(228, 206, 203);
+}
+
+.how-it-works{
+    background-color: rgb(234, 198, 191);
+}
+
+.contact-us{
+    background-color: rgb(220, 217, 220);
+}
+
+.contact-info{
+    margin-right: 50px;
+
+}
 
 @media (min-width: 576px) { 
     .sign-in-form{
