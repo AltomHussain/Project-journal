@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(251, 217, 184);
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.jumbotron{
+    margin-top:20px;
+    background-image: url('images/jumbotron.jpg');
+    background-size: cover;
+}
+
+.sign-in-form{
+    background-color: rgb(233, 229, 229);
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    width: 400px;
+    height: 100px;
+    
+}
+
+.btn-primary{
+    background-color: rgb(203, 141, 145);
+    border-color: rgb(203, 141, 145);
+}
+.text :hover{
+    border: 2px solid rgb(232, 187, 236);
+    border-radius: 25px;
+}
+
+
+.about-us{
+    background-color: rgb(228, 206, 203);
+    margin-left:15px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.about-us div {
+    
+}
+
+
+@media (min-width: 576px) { 
+    .sign-in-form{
+        margin-left: 10px;
+        height: 250px;
+    }
+ }
+
+ @media (min-width: 992px){
+     .sign-in-form{
+        margin-left: 450px;
+
+     }
+ }
+
+ @media(min-width: 1200px){
+     .sign-in-form{
+         margin-left: 650px;
+     }
+ }
