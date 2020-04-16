@@ -3,6 +3,11 @@ body{
     font-family: 'Baloo Tammudu 2', cursive;
 }
 
+.btn-outline-success{
+    border-color:  rgb(203, 141, 145);
+    color: rgb(203, 141, 145);
+}
+
 .jumbotron{
     margin-top:20px;
     background-image: url('images/jumbotron.jpg');
@@ -18,16 +23,21 @@ body{
     
 }
 
+.sign-up{
+    margin: 30px;
+}
+
 .btn-signin{
     background-color: rgb(203, 141, 145);
     border-color: rgb(203, 141, 145);
     color: white;
+    width: 150px;
 }
 
 
 
 .main-page-content{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-left:15px;
     padding-top: 10px;
     
@@ -50,19 +60,26 @@ body{
     background-color: rgb(234, 198, 191);
 }
 
-.contact-us{
-    background-color: rgb(220, 217, 220);
-}
-
 .contact-info{
-    margin-right: 50px;
-
+    margin-top: 15px;
+    
 }
+
+footer{
+    margin-top:50px;
+}
+
+
 
 @media (min-width: 576px) { 
     .sign-in-form{
         margin-left: 10px;
         height: 250px;
+    }
+    .contact-info{
+        padding-top: 20px;
+        margin-top:20px;
+        margin-bottom: 50px;
     }
  }
 
